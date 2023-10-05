@@ -1,0 +1,12 @@
+server:
+  port: 8070
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: "jdbc:mysql://localhost:3306/db"
+    username: "username"
+    password: "password"
+    driver-class-name: com.mysql.cj.jdbc.Driver
