@@ -55,10 +55,9 @@ The system supports roles for both managers and clients.
 # API Endpoints
 
     /api/goods: List available goods (GET).
-    /api/goods/{id}: Get details of a specific good (GET).
-    /api/goods: Add a new good (POST).
-    /api/orders: Place a new order (POST).
-    /api/orders/pay/{orderId}: Mark an order as paid (POST).
+    /api/goods/add-new: Add a new good (POST).
+    /api/orders/place-order: Place a new order (POST).
+    /api/orders/mark-paid/{orderId}: Mark an order as paid (POST).
 
 # Security
 
